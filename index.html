@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>首页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="css/flexslider.css" rel="stylesheet" type="text/css"  media="screen" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+</head>
+<body>
+<!--header start here-->
+<div class="header">
+   <div class="container">
+        <div class="header-main">
+			 <div class="logo">
+			   <a href="index.html"><img src="images/logo.png" alt=""></a>
+			 </div>
+            <div class="top-nav">
+            	<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<ul class="nav nav-pills nav-justified res">
+					<li><a class="active no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>首页</a></li>
+					<li ><a class="icon" href="about.html"><i class="glyphicon glyphicon-star"> </i>简介</a></li>
+					<li><a href="list.html"><i  class="glyphicon glyphicon-thumbs-up"> </i>列表</a></li>
+					<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+			<!-- /script-for-menu -->
+			 </div>	
+     <div class="clearfix"> </div>
+   </div>	
+ </div>
+</div>
+<!--header end here-->
+<!--banner start here-->
+<div class="banner">
+  <div class="container">
+ 	<div class="banner-main">
+	  <section class="slider">
+           <div class="flexslider">
+             <ul class="slides">
+				   <li>
+                   <h2 style=" display:none">&nbsp;</h2>
+					<p>有研究表明，早逝率、Ⅱ型糖尿病发病率以及某些癌症发病率的降低都与喝咖啡存在关联。咖啡中的活性成分能有助于缓解氧化应激，即自由基和抗氧化剂之间的不平衡现象。</p>
+				   </li>
+				   <li>
+                   <h2 style=" display:none">&nbsp;</h2>
+					<p>咖啡中的咖啡酸，还能提高肌肉对血糖的利用程度，除此之外，还含有促进免疫系统和抗炎的成分。研究结果的系统性总结是衡量科学证据最有力的方法，所以不用再戒咖啡了。</p>
+				  </li>
+				  <li>
+                   <h2 style=" display:none">&nbsp;</h2>
+					<p>“咖啡”一词源自希腊语“Kaweh”，意思是“力量与热情”。咖啡树是属茜草科常绿小乔木，日常饮用的咖啡是用咖啡豆配合各种不同的烹煮器具制作出来的，而咖啡豆就是指咖啡树果实内之果仁，再用适当的烘焙方法烘焙而成。</p>
+				</li>
+          </ul>
+        </div>
+      </section>
+		
+	</div>
+</div>
+<!--FlexSlider-->
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</div>
+<!--banner end here-->
+<!--banner info start here-->
+<div class="bann-info">
+	<div class="container">
+		<div class="bann-info-main">
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b1.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>黑咖啡</h3>
+					<p>黑咖啡是不加任何修饰的咖啡</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b2.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>绿咖啡</h3>
+					<p>绿色咖啡咖啡是茜草科常绿灌木或小乔木</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b3.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>原味咖啡</h3>
+					<p>“咖啡”一词源自希腊语“Kaweh”</p>
+				</div>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--banner info end here-->
+<!-- coff-online start here-->
+<div class="coff-online">
+	<div class="container">
+		<div class="coff-online-main">
+			 <h1>欢迎访问</h1>
+			 <h2>我们的咖啡网站</h2>
+			 <h4>咖啡中含有咖啡豆醇和咖啡醇，具有抗癌和抗炎的作用。咖啡能上调肝脏中的抗毒生化过程，保护身体免受黄曲霉毒素和其它致癌物质的影响。</h4>
+			 <p>咖啡中含有绿原酸，这种物质已被证明能够促进葡萄糖代谢和提高胰岛素敏感度，能提高肌肉对血糖的利用程度，从而降低人们患糖尿病的风险。</p>
+		     <a href="#"> <span class="glyphicon glyphicon-list-alt read" aria-hidden="true"> </span> </a>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--ccoff-online end here-->
+<!--coff-bar start here--><!--coff-bar end here-->
+<!--culfy start here--><!--culfy end here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+		   
+		<div class="copyright">
+	            <p>版权所有@2016151116 武文甜 @2016151110 李思睿 @2016151104 徐梦玉</p>
+		  </div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+</table>
+  <EMBED src="音乐.mp3"width=300height=45type=audio/mpeg loop="-1" autostart="false"volume="0"></EMBED>
+</body>
+</html>

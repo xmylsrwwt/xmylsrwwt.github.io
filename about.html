@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>简介</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
+function hideURLbar(){ window.scrollTo(0,1); }
+
+</script>
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+</head>
+<body>
+<!--header start here-->
+<div class="header">
+   <div class="container">
+        <div class="header-main">
+			 <div class="logo">
+			   <a href="index.html"><img alt="" src="images/logo.png"></a>
+			 </div>
+            <div class="top-nav">
+            	<span class="menu"> <img alt="" src="images/icon.png"/></span>
+				<ul class="nav nav-pills nav-justified res">
+					<li><a class="no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>首页</a></li>
+					<li><a class="active" href="about.html"><i class="glyphicon glyphicon-star"> </i>简介</a></li>
+					<li><a href="list.html"><i  class="glyphicon glyphicon-thumbs-up"> </i>列表</a></li>
+					<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+			<!-- /script-for-menu -->
+			 </div>	
+     <div class="clearfix"> </div>
+   </div>	
+ </div>
+</div>
+<!--header end here-->
+<!--about start here-->
+<div class="about">
+	<div class="container">
+		<div class="about-main">
+				<div class="about-top">
+					<h3>简介</h3>
+				</div>
+				<div class="about-wedo">
+					<div class="col-md-4 about-top-img">
+						<a href="#"><img alt="" src="images/a.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-8 about-wedo-right">
+						<h4><a href="#">咖啡是用经过烘焙的咖啡豆制作出来的饮料，与可可、茶同为流行于世界的主要饮品。</a></h4>
+						<p> 
+咖啡树是属茜草科常绿小乔木，日常饮用的咖啡是用咖啡豆配合各种不同的烹煮器具制作出来的，而咖啡豆就是指咖啡树果实里面的果仁，再用适当的方法烘焙而成，一杯标准的咖啡品尝起来的味道不应该是苦涩的，一名合格的咖啡师在制作咖啡时会严谨的进行每一步操作，最后为客人呈上的咖啡在味觉上会呈现出不同程度的甜度、酸度、醇厚度或是干净度。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	 </div>
+</div>
+<div class="team-mem">
+		<div class="container">
+			   <div class="team-main">
+					<h3>我们的推荐</h3>
+					<div class="team-top">
+						<div class="col-md-3 team-top-left">
+							<img alt="" src="images/t1.jpg" class="img-responsive">
+							<div class="team-details">
+								<h4>苦咖啡</h4>
+								<P>咖啡摆拍欣赏</P>
+							</div>
+						</div>
+						<div class="col-md-3 team-top-left">
+							<img alt="" src="images/t2.jpg" class="img-responsive">
+							<div class="team-details">
+								<h4>爱心</h4>
+								<P>咖啡拉花欣赏</P>
+							</div>	
+						</div>
+						<div class="col-md-3 team-top-left">
+							<img alt="" src="images/t3.jpg" class="img-responsive">
+							<div class="team-details">
+								<h4>麦穗</h4>
+								<P>咖啡拉花欣赏</P>
+							</div>	
+						</div>
+						<div class="col-md-3 team-top-left">
+							<img alt="" src="images/t4.jpg" class="img-responsive">
+							<div class="team-details">
+								<h4>爱心</h4>
+								<P>咖啡拉花欣赏</P>
+							</div>	
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	  </div>
+</div>
+
+<!--about start here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+		   
+		<div class="copyright">
+	            <p>版权所有@2016151116武文甜 @2016151110李思睿@2016151104徐梦玉</p>
+		  </div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+</body>
+</html>
